@@ -1,8 +1,15 @@
-# 
+# algorithmic trading bot 
+![](./14-4-challenge-image.png)
 
 ## Description
 ```
-Use data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
+Combine algorithmic trading skills with your existing skills in financial Python programming and machine learning to create an algorithmic trading bot that learns and adapts to new data and evolving markets.
+
+Implement an algorithmic trading strategy that uses machine learning to automate the trade decisions.
+
+Adjust the input parameters to optimize the trading algorithm.
+
+Train a new machine learning model and compare its performance to that of a baseline model.
 ```
 
 ## Technologies Used 
@@ -15,6 +22,10 @@ pandas
 numpy 
 Jupyter
 hvPlot
+Sklearn
+SVC
+SVM
+Classification models
 ``` 
 ## Installation Guide
 ```
@@ -23,9 +34,6 @@ hvPlot
   -pip install numpy
   -pip install matplotlib
   -pip install hvplot
-  -pip install geoviews
-  -pip install cartopy
-  -pip install shapely
   ```
   ---
 
@@ -34,11 +42,6 @@ hvPlot
 Clone the repository and run the code on your VS vode or Jupyter Lab.
 ```
 ---
-
-## Visualication Demo
-![](./Images/6-4-geoviews-plot.png)
-![](./Images/avg-sale-px-sq-foot-gross-rent.png)
-![](./Images/pricing-info-by-neighborhood.png)
 
 ## Contributors
 ```
